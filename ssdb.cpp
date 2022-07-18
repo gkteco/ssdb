@@ -6,6 +6,8 @@
 #include<vector>
 #include<sstream>
 #include<assert.h>
+#include<stdlib.h>
+#include<stdio.h>
 using namespace std;
 class DB {
         string dbstore = "ssdb.kvstore";
