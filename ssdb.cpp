@@ -17,7 +17,7 @@ class DB {
 		void insert(string key, string value);
 		void dumpDB();
 		~DB() {
-			ofstream file(dbstore, ios::app);
+			ofstream file(dbstore);
 			if(file.is_open()){
 				map<string, string>::iterator iter;
 				for(iter = db.begin(); iter != db.end(); iter++) {
